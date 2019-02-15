@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+/*Header*/
+
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img{
+  height: 50px;
+}

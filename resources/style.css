@@ -5,6 +5,19 @@
 
 body {
   background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2 {
+  padding: 15px;
+}
+
+.main-content {
+  padding-top: 69px;
 }
 
 /*Header*/
@@ -14,6 +27,10 @@ header {
   position: fixed;
   height: 69px;
   width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+  background-color: black;
+  align-items: center;
 }
 
 .logo {
@@ -22,4 +39,130 @@ header {
 
 .logo img{
   height: 50px;
+  margin-left: 10px;
+  float: left;
+}
+
+nav {
+  margin-right: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+/*main content*/
+
+
+
+/*Top-part*/
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin: 0 auto;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-content {
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+}
+
+
+
+/*Middle-part*/
+
+#featured {
+  width: 1000px;
+  padding: 69px 0;
+  margin: 0 auto;
+}
+
+.middle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-content {
+  margin-top: 15px;
+}
+
+.product img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+}
+
+/*Bottom-part*/
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  padding-top: 69px;
+  margin: 0 auto;
+  align-content: center;
+ }
+
+ .bottom-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+  .column {
+    background-color: black;
+    margin: 0 20px;
+    opacity: 1;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .column p {
+    margin: 25px auto;
+  }
+
+  .column h3 {
+    padding: 15px;
+  }
+
+
+/*Contact*/
+
+#contact {
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+#contact h2  {
+  padding: 10px;
+}
+
+h5 {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+/*Footer*/
+
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
